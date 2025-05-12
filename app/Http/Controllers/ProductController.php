@@ -19,7 +19,7 @@ class ProductController extends Controller
     public function store(Request $request)
     {
         // Logic to store the product
-        
+
         return redirect()->route('products.index');
     }
 
